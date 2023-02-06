@@ -51,27 +51,6 @@ void marcar(char marcador)
     }
 }
 
-/*char *validar(char *texto)
-{
-   
-    for (int j = 0; j < strlen(texto); j++)
-    {
-        switch (texto[j])
-        {
-        case SUBLINHADO:
-            marcar(SUBLINHADO);
-            break;
-        case NEGRITO:
-            marcar(NEGRITO);
-            break;
-        case ITALICO:
-            marcar(ITALICO);
-            break;
-        }
-    }
-    return estaVazia() ? "C" : "E";
-}*/
-
 int main() {
     int n = 0;
     scanf("%d", &n);
